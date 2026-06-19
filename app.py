@@ -23,8 +23,10 @@ HTML = """<!DOCTYPE html>
             max-width: 500px; width: 90%; box-shadow: 0 20px 60px rgba(0,0,0,0.3);
             text-align: center;
         }
-        h1 { color: #333; font-size: 28px; margin-bottom: 8px; }
-        .version { color: #764ba2; font-size: 14px; font-weight: 600; margin-bottom: 24px; }
+        h1 { color: #333; font-size: 28px; margin-bottom: 12px; }
+        .student { color: #333; font-size: 24px; font-weight: bold; margin: 4px 0; }
+        .version-1 { color: #764ba2; font-size: 22px; font-weight: 600; margin-top: 16px; }
+        .version-2 { color: #764ba2; font-size: 16px; font-weight: 600; margin-bottom: 24px; }
         .status { display: inline-block; background: #e8f5e9; color: #2e7d32;
                   padding: 6px 16px; border-radius: 20px; font-size: 14px; margin-bottom: 24px; }
         .info { background: #f5f5f5; border-radius: 8px; padding: 16px;
@@ -35,7 +37,10 @@ HTML = """<!DOCTYPE html>
 <body>
     <div class="card">
         <h1>🚀 CI/CD 部署成功！</h1>
-        <p class="version">Flask App v1.0 | Python {{ python_version }}</p>
+        <p class="student">学号：2440666120</p>
+        <p class="student">姓名：刘嘉豪</p>
+        <p class="version-1">Flask App v2.0</p>
+        <p class="version-2">Python {{ python_version }}</p>
         <div class="status">✅ 服务运行正常</div>
         <div class="info">
             <p><span>容器 ID：</span>{{ hostname }}</p>
