@@ -24,7 +24,7 @@ HTML = """<!DOCTYPE html>
             text-align: center;
         }
         h1 { color: #333; font-size: 28px; margin-bottom: 12px; }
-        .student { color: #333; font-size: 24px; font-weight: bold; margin: 4px 0; }
+        .student { color: #764ba2; font-size: 16px; font-weight: 600; margin-bottom: 24px; }
         .version-1 { color: #764ba2; font-size: 22px; font-weight: 600; margin-top: 16px; }
         .version-2 { color: #764ba2; font-size: 16px; font-weight: 600; margin-bottom: 24px; }
         .status { display: inline-block; background: #e8f5e9; color: #2e7d32;
@@ -36,11 +36,9 @@ HTML = """<!DOCTYPE html>
 </head>
 <body>
     <div class="card">
-        <h1>🚀 CI/CD 部署成功！</h1>
-        <p class="student">学号：2440666120</p>
-        <p class="student">姓名：刘嘉豪</p>
-        <p class="version-1">Flask App v2.0</p>
-        <p class="version-2">Python {{ python_version }}</p>
+     <h1>🚀 CI/CD 部署成功！</h1>
+        <p class="student">学号：2440666120</p><p class="student">姓名：刘嘉豪</p>
+        <p class="version-2">Flask App v1.0</p><p class="version-2">Python {{ python_version }}</p>
         <div class="status">✅ 服务运行正常</div>
         <div class="info">
             <p><span>容器 ID：</span>{{ hostname }}</p>
